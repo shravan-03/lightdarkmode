@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dark-mode {
+  background-color: #ffffff;
+  border-radius: 0px;
+  height: 250px;
+  width: 280px;
+  border-radius: 5px;
+  text-align: center;
+}
+.light-mode {
+  background-color: #000000;
+  border-radius: 5px;
+  height: 250px;
+  width: 280px;
+  border-radius: 5px;
+  text-align: center;
+  border-color: #000000;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.btn {
+  font-family: 'Roboto';
+  height: 25px;
+  width: 110px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.heading2 {
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+}
